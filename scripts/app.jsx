@@ -1,11 +1,12 @@
 'use strict';
 
-var React = require('react');
+var React = require('react'),
+    Child = require('./child');
 
 var App = React.createClass({
   render() {
     return (
-      <h1>Hello, world.</h1>
+      <Child />
     );
   }
 });
